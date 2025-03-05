@@ -15,14 +15,16 @@ console.log(shoppingCart)
 
 
 const meal = ["soup", "steak", "ice cream"]
-let [ starter2] = meal;
-console.log( starter2);
+let [starter2] = meal;
+console.log(starter2);
+console.log(meal)
 
 let obj = {
     key: 1,
     value: 4
 };
 
+//En este caso aunque restemos diferentes valores y objetos, al ser los datos del mimsmo tipo, se restan
 let output = { ...obj };
 output.value -= obj.key;
 
